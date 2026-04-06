@@ -26,8 +26,8 @@ Your scripts rely on specific input paths. You must attach the following data so
 1.  **Competition Data:** * Click **"Add Input"** -> Search for the competition `mindshift-analytics-haul-mark-challenge` and attach it.
     * *Path expected by script:* `/kaggle/input/competitions/mindshift-analytics-haul-mark-challenge`
 2.  **Cached Features Dataset:**
-    * Click **"Add Input"** -> Search for the dataset `nvdpda24b046` (which contains `cached_features.parquet`) and attach it.
-    * *Path expected by script:* `/kaggle/input/datasets/nvdpda24b046/cached-features-parquet/cached_features.parquet`
+    * Click **"Add Input"** -> and add the dataset **`cached_features.parquet`** and change copy this file path accordingly
+
 3.  **ID Mapping:**
     * Ensure `id_mapping_new.csv` is present in the competition directory. If it is a custom file, upload it as a new dataset and update the `ID_MAPPING_PATH` variable in the scripts to point to your new dataset.
 
